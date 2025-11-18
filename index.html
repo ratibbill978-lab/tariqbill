@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MASTER MIND JERSEY HUB</title>
+
+<style>
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        background: #f3f5f7;
+    }
+
+    /* HEADER */
+    header {
+        background: linear-gradient(90deg, #0a0a0a, #222, #0a0a0a);
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+        box-shadow: 0px 5px 12px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+        font-size: 40px;
+        font-family: Algerian;
+        letter-spacing: 2px;
+    }
+
+    header p, header h4 {
+        font-size: 18px;
+        opacity: 0.9;
+    }
+
+    marquee {
+        color: gold;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    /* NAVIGATION */
+    nav {
+        background: #111;
+        padding: 12px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        color: #f4b400;
+        text-shadow: 0 0 10px #f4b400;
+    }
+
+    /* PRODUCT GRID */
+    .products-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding: 40px;
+    }
+
+    .product-card {
+        width: 240px;
+        background: white;
+        border-radius: 12px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 5px 18px rgba(0,0,0,0.18);
+        transition: 0.3s;
+    }
+
+    .product-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+    }
+
+    .product-card img {
+        width: 100%;
+        height: 260px;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background: #028a0f;
+        border: none;
+        color: white;
+        font-size: 17px;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background: #04b51a;
+        transform: scale(1.07);
+    }
+
+    /* CONTACT SECTION */
+    #CONTACT {
+        background: white;
+        margin: 40px;
+        padding: 30px 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    }
+
+    #CONTACT h2 {
+        text-align: center;
+        font-size: 28px;
+        font-family: Arial Black;
+        margin-bottom: 20px;
+    }
+
+    #CONTACT p {
+        text-align: center;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    /* FOOTER */
+    footer {
+        background: #000;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    /* FLOATING ANIMATION */
+    #movingImg {
+        position: relative;
+        animation: floatLogo 4s infinite alternate ease-in-out;
+    }
+
+    @keyframes floatLogo {
+        from { left: 0px; }
+        to { left: 300px; }
+    }
+</style>
+
+</head>
+<body>
+
+<!-- HEADER -->
+<<header style="
+    background: linear-gradient(135deg, #0a0a0a, #222, #0a0a0a);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+">
+    <h1 style="
+        font-size: 48px;
+        font-family: Algerian, serif;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    ">
+        MASTER MIND SPORTS HUB
+    </h1>
+
+    <p style="
+        font-size: 20px;
+        margin: 8px 0;
+        opacity: 0.85;
+    ">
+        Located in Adjumani District
+    </p>
+
+    <!-- Elegant scrolling text using CSS animation -->
+    <div style="
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        border-top: 1px solid rgba(255,255,255,0.3);
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+        padding: 10px 0;
+        margin: 20px 0;
+    ">
+        <p style="
+            display: inline-block;
+            padding-left: 100%;
+            animation: scrollText 15s linear infinite;
+            font-weight: bold;
+            font-size: 18px;
+            color: gold;
+        ">
+            YOUR ONE-STOP SHOP FOR SPORTS JERSEYS AND OUTFITS – HIGH QUALITY – FAST DELIVERY – ORIGINAL & REPLICA
+        </p>
+    </div>
+
+    <h4 style="
+        font-size: 22px;
+        margin-top: 15px;
+        opacity: 0.85;
+        text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+    ">
+        We Deliver Across Northern Uganda
+    </h4>
+</header>
+
+<style>
+@keyframes scrollText {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+</style>
+der>
+
+<!-- NAVIGATION -->
+<nav style="text-align:center; padding:20px; background:#111;">
+    <a href="#HOME" style="
+        display:inline-block;
+        padding:12px 25px;
+        margin:0 10px;
+        background:#028a0f;
+        color:white;
+        text-decoration:none;
+        border-radius:8px;
+        font-weight:bold;
+        transition:0.3s;
+    ">HOME</a>
+
+    <a href="#products" style="
+        display:inline-block;
+        padding:12px 25px;
+        margin:0 10px;
+        background:#028a0f;
+        color:white;
+        text-decoration:none;
+        border-radius:8px;
+        font-weight:bold;
+        transition:0.3s;
+    ">PRODUCTS</a>
+
+    <a href="#CONTACT" style="
+        display:inline-block;
+        padding:12px 25px;
+        margin:0 10px;
+        background:#028a0f;
+        color:white;
+        text-decoration:none;
+        border-radius:8px;
+        font-weight:bold;
+        transition:0.3s;
+    ">CONTACT</a>
+</nav>
+
+<!-- Optional hover effect -->
+<style>
+    nav a:hover {
+        background:#04b51a;
+        transform:scale(1.05);
+    }
+</style>
+
+
+<!-- HOME -->
+<div id="HOME" style="padding:40px 20px; background:#f0f2f5; border-radius:10px; margin:20px;">
+    <h2 style="text-align:center; font-size:32px;">WELCOME TO OUR STORE</h2>
+    <p style="text-align:center; font-size:18px; font-weight:bold; margin:10px 0;">
+        Discover a wide range of premium sportswear for all your favorite sports. 
+    </p>
+    <p style="text-align:center; font-size:18px; font-weight:bold; margin:10px 0;">
+        From football kits to basketball gear, yoga pants, swim trunks, and tennis shirts, we have it all. 
+    </p>
+    <p style="text-align:center; font-size:18px; font-weight:bold; margin:10px 0;">
+        We provide authentic and high-quality original and replica versions to meet your needs. 
+    </p>
+    <p style="text-align:center; font-size:18px; font-weight:bold; margin:10px 0;">
+        Enjoy reliable delivery across Northern Uganda and excellent customer service.
+    </p>
+    <p style="text-align:center; font-size:18px; font-weight:bold; margin:10px 0;">
+        Browse our collection today and find the perfect sportswear for training, games, and leisure!
+    </p>
+</div>
+
+<!-- PRODUCT SECTION -->
+<div class="products-container" id="products">
+
+    <div class="product-card">
+        <img src="bill2.jpg" alt="Football Outfit">
+        <p><b>UGX 80,000</b></p>
+        <button>ADD TO CART</button>
+    </div>
+
+    <div class="product-card">
+        <img src="bill 4.jpg" alt="Basketball Shorts">
+        <p><b>UGX 50,000</b></p>
+        <button>ADD TO CART</button>
+    </div>
+
+    <div class="product-card">
+        <img src="bill 3.jpg" alt="Yoga Pants">
+        <p><b>UGX 60,000</b></p>
+        <button>ADD TO CART</button>
+    </div>
+
+    <div class="product-card">
+        <img src="bill 4.jpg" alt="Swim Trunk">
+        <p><b>UGX 30,000</b></p>
+        <button>ADD TO CART</button>
+    </div>
+
+    <div class="product-card">
+        <img src="bill 5.jpg" alt="Tennis Shirt">
+        <p><b>UGX 40,000</b></p>
+        <button>ADD TO CART</button>
+    </div>
+
+</div>
+
+<!-- CONTACT US -->
+<div id="CONTACT">
+    <h2>CONTACT US</h2>
+
+    <center>
+        <img id="movingImg" src="logo 2.jpg" width="150" height="150" style="border-radius:25%;">
+    </center>
+
+    <p><b>WhatsApp:</b> <a href="https://wa.me/25678655453" style="color:green;">+256 786 554 553</a></p>
+    <p><b>Tel:</b> +256 757 432 424</p>
+    <p><b>Instagram:</b> @mastermind_sports</p>
+    <p><b>Facebook:</b> Mastermind Sports Hub
